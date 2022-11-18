@@ -1,6 +1,24 @@
 # XRPSiphon
  A tool for transferring percentages of XRP from accounts to other destinations. Intended for use with NFT Royalty  accounts.
 
+# Installation
+
+For those of you that know NodeJS - this only requires the `xrpl` module. For those of you that don't read on:
+
+1. Go to Digital Ocean (or vps of choice) & Create a droplet of the smallest size
+2. Wait for Droplet to finish creating - connect to console.
+3. sudo apt install nodejs
+4. sudo apt install npm
+5. npm install xrpl
+6. git clone https://github.com/sdoddler/XRPSiphon
+7. sudo npm i -g pm2
+8. nano XRPSiphon/config.json
+9. --> Input relevant details to the config.json
+ i) ctrl+x to exit
+ ii) Y to save
+ iii) Press enter
+10. pm2 start XRPSiphon/xrpSiphon.js
+
 Config - (Take out //Comments)
 ```
 {
