@@ -27,7 +27,7 @@ Config - (Take out //Comments)
   "wallets": [ // Array of Wallets to check, there can be multiple.
     {
       "walletSeed": "sYourSeedHere", // Seed of wallet
-      "threshold": 800,  // XRP Threshold
+      "threshold": 800,  // XRP Threshold - XRP will never go below this amount
       "minimum": 300, // Minimum amount of XRP to allow to be split up
       "destinations": [ // Array of destinations for XRP to be transferred too
         {
