@@ -1,0 +1,25 @@
+{
+  "node": "wss://xrplcluster.com/",
+  "frequency": 60,
+  "wallets": [
+    {
+      "walletSeed": "sYourSeedHere",
+      "threshold": 800, 
+      "minimum": 300,
+      "destinations": [
+        {
+          "wallet": "rGnBUCwMJSX57QDecdyT5drdG3gvsmVqxD",
+          "percentage": 70,
+          "default": true,
+          "destinationTag": 1111
+        },
+        {
+          "wallet": "rSVxSCcUfgXBhqHeiaECf1WAe3vKq7XgD",
+          "percentage": 30,
+          "default": false
+        }
+
+      ]
+    }
+  ]
+}

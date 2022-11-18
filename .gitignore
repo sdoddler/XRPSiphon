@@ -125,3 +125,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+bin/Microsoft.NodejsTools.WebRole.dll
+*.cache
+obj/Debug/XRPSiphon.njsproj.FileListAbsolute.txt
+package-lock.json
+package.json
+XRPSiphon.njsproj
+XRPSiphon.sln
